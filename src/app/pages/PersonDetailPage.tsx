@@ -425,11 +425,11 @@ export function PersonDetailPage() {
             
             <p className="text-yellow-200 text-base tracking-widest" 
               style={{ fontFamily: "'ZCOOL XiaoWei', serif" }}>
-              贰零贰陆年 · 人物风云录
+              贰零贰陆年 · 尧舜榜
             </p>
             <p className="text-yellow-300/70 text-sm mt-2 tracking-wider" 
               style={{ fontFamily: "'Noto Serif SC', serif" }}>
-              致敬改变世界之英杰
+              爱具体的人，不要爱抽象的人
             </p>
           </div>
         </div>
