@@ -27,7 +27,7 @@ export const persons: Person[] = [
     id: 1,
     name: "海瑞",
     title: "大明三大定律掌握者",
-    avatar: "/public/images/hairui/avatar/海瑞头像.png",
+    avatar: "/sage-list/images/hairui/avatar/海瑞头像.png",
     rank: 1,
     category: "尧",
     shortDescription:
@@ -42,8 +42,8 @@ export const persons: Person[] = [
       "**一生清廉，身死名垂千古颂**：万历十五年（1587年）病逝于南京任上，身后仅余俸银八两、葛布一端、旧衣数件，连丧葬费用都由同僚凑集。其死讯传出后，南京商贾百姓自发罢市，灵柩返乡时，长江两岸哭祭送葬的百姓绵延百里不绝。其清廉刚正的事迹被载入正史，成为中国古代清官的标杆。",
     ],
     photos: [
-      "/public/images/hairui/photos/海瑞1.jpg",
-      "/public/images/hairui/photos/海瑞2.jpg",
+      "/sage-list/images/hairui/photos/海瑞1.jpg",
+      "/sage-list/images/hairui/photos/海瑞2.jpg",
     ],
     videoUrl:
       "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
@@ -64,7 +64,7 @@ export const persons: Person[] = [
     id: 2,
     name: "包拯",
     title: "大宋铁面阎罗 千古包青天",
-    avatar: "/public/images/baozheng/avatar/包拯头像.jpeg",
+    avatar: "/sage-list/images/baozheng/avatar/包拯头像.jpeg",
     rank: 2,
     category: "尧",
     shortDescription:
@@ -79,8 +79,8 @@ export const persons: Person[] = [
       "**立训传家，清廉风骨垂千古**：嘉祐七年（1062年）于开封病逝，享年六十四岁，宋仁宗亲临吊唁，为其辍朝一日，追赠礼部尚书，赐谥“孝肃”。其生前立下严苛家训，严禁子孙贪赃枉法，违者不得入本家、不得葬入祖坟。其清廉刚正的精神流传千年，成为中国古代清官文化的核心符号与公平正义的代名词。",
     ],
     photos: [
-      "/public/images/baozheng/photos/包拯1.jpeg",
-      "/public/images/baozheng/photos/包拯2.jpeg",
+      "/sage-list/images/baozheng/photos/包拯1.jpeg",
+      "/sage-list/images/baozheng/photos/包拯2.jpeg",
     ],
     videoUrl:
       "https://www.bilibili.com/video/BV1Xe4y1d7d2?vd_source=999f50f527e292eeffd4389bdafdbe4a",
@@ -102,7 +102,7 @@ export const persons: Person[] = [
     id: 3,
     name: "焦裕禄",
     title: "县委书记的榜样 人民公仆标杆",
-    avatar: "/public/images/jiaoyulu/avatar/焦裕禄头像.jpeg",
+    avatar: "/sage-list/images/jiaoyulu/avatar/焦裕禄头像.jpeg",
     rank: 3,
     category: "尧",
     shortDescription:
@@ -117,9 +117,9 @@ export const persons: Person[] = [
       "**精神永续，焦裕禄精神代代相传**：他用生命铸就的“亲民爱民、艰苦奋斗、科学求实、迎难而上、无私奉献”的焦裕禄精神，成为中国共产党人精神谱系的重要组成部分。他当年带领群众种植的泡桐树，被百姓亲切称为“焦桐”，如今已发展为兰考的支柱产业，持续造福当地百姓，其精神至今仍激励着无数党员干部躬身为民、实干担当。",
     ],
     photos: [
-      "/public/images/jiaoyulu/photos/焦裕禄1.jpeg",
-      "/public/images/jiaoyulu/photos/焦裕禄2.jpeg",
-      "/public/images/jiaoyulu/photos/焦裕禄3.jpeg",
+      "/sage-list/images/jiaoyulu/photos/焦裕禄1.jpeg",
+      "/sage-list/images/jiaoyulu/photos/焦裕禄2.jpeg",
+      "/sage-list/images/jiaoyulu/photos/焦裕禄3.jpeg",
     ],
     videoUrl:
       "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
@@ -143,7 +143,7 @@ export const persons: Person[] = [
     "id": 4,
     "name": "张钦礼",
     "title": "兰考除三害奠基者，焦裕禄的亲密战友",
-    "avatar": "/public/images/zhangqinli/avatar/张钦礼头像.jpeg",
+    "avatar": "/sage-list/images/zhangqinli/avatar/张钦礼头像.jpeg",
     "rank": 4,
     "category": "尧",
     "shortDescription": "兰考除三害奠基者，焦裕禄的亲密战友，一生扎根兰考的赤子，百姓心中的张青天，以毕生实干践行了为人民服务的初心",
@@ -156,9 +156,9 @@ export const persons: Person[] = [
       "**身死名存，民心丰碑永流传**：2004年5月7日，张钦礼病逝，灵柩归乡之时，兰考十万百姓自发沿街相送，哭声震天，百姓自发在其陵前立下百余座纪念碑，连续数十年自发开展悼念活动。他一生清廉奉公，始终与群众同吃同住同劳动，把毕生心血都献给了兰考这片土地，其“一心为民、实干担当”的精神，成为兰考百姓心中永不磨灭的丰碑。"
     ],
     "photos": [
-      "/public/images/zhangqinli/photos/张钦礼1.jpeg",
-      "/public/images/zhangqinli/photos/张钦礼2.jpeg",
-      "/public/images/zhangqinli/photos/张钦礼3.jpeg",
+      "/sage-list/images/zhangqinli/photos/张钦礼1.jpeg",
+      "/sage-list/images/zhangqinli/photos/张钦礼2.jpeg",
+      "/sage-list/images/zhangqinli/photos/张钦礼3.jpeg",
     ],
     "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
     "socialLinks": {
@@ -179,7 +179,7 @@ export const persons: Person[] = [
     "id": 5,
     "name": "张桂梅",
     "title": "大山女孩的燃灯校长，华坪女高创始人",
-    "avatar": "/public/images/zhangguimei/avatar/张桂梅头像.png",
+    "avatar": "/sage-list/images/zhangguimei/avatar/张桂梅头像.png",
     "rank": 5,
     "category": "舜",
     "shortDescription": "大山女孩的燃灯校长，全国首所全免费女子高中创始人，七一勋章获得者，以毕生心血托举两千余名山区女孩走出大山，用教育阻断贫困代际传递的时代楷模",
@@ -192,9 +192,9 @@ export const persons: Person[] = [
       "**薪火相传，精神永续照山河**：张桂梅始终以党建引领教育，把红色基因融入办学全过程，用革命先辈的精神滋养学生的信念。她一生清贫，无房无车无存款，将所有奖金、工资和社会捐助全部投入教育和福利事业。在她的感召下，大批女高毕业生毕业后逆向而行，回到滇西基层任教、从医、扎根乡村振兴，把大爱与担当一代代传递下去，她的“燃灯精神”也成为新时代教育工作者的精神标杆，激励着无数人投身公益与教育事业。"
     ],
     "photos": [
-      "/public/images/zhangguimei/photos/张桂梅1.png",
-      "/public/images/zhangguimei/photos/张桂梅2.png",
-      "/public/images/zhangguimei/photos/张桂梅3.png",
+      "/sage-list/images/zhangguimei/photos/张桂梅1.png",
+      "/sage-list/images/zhangguimei/photos/张桂梅2.png",
+      "/sage-list/images/zhangguimei/photos/张桂梅3.png",
     ],
     "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
     "socialLinks": {
@@ -215,7 +215,7 @@ export const persons: Person[] = [
     id: 6,
     name: "诺尔曼·白求恩",
     title: "国际共产主义战士 中国人民的伟大朋友",
-    avatar: "/public/images/baiqiuen/avatar/白求恩头像.png",
+    avatar: "/sage-list/images/baiqiuen/avatar/白求恩头像.png",
     rank: 6,
     category: "舜",
     shortDescription:
@@ -230,9 +230,9 @@ export const persons: Person[] = [
       "**精神不朽，铸就国际主义丰碑**：白求恩以毫不利己、专门利人的精神，将全部精力奉献给中国人民的解放事业。毛泽东同志在《纪念白求恩》中，称其是“一个高尚的人，一个纯粹的人，一个有道德的人，一个脱离了低级趣味的人，一个有益于人民的人”。他的精神被纳入中国共产党人精神谱系，成为中加两国人民友谊的重要象征，至今仍被世界人民铭记与传颂。",
     ],
     photos: [
-      "/public/images/baiqiuen/photos/白求恩1.png",
-      "/public/images/baiqiuen/photos/白求恩2.png",
-      "/public/images/baiqiuen/photos/白求恩3.png",
+      "/sage-list/images/baiqiuen/photos/白求恩1.png",
+      "/sage-list/images/baiqiuen/photos/白求恩2.png",
+      "/sage-list/images/baiqiuen/photos/白求恩3.png",
     ],
     videoUrl:
       "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
@@ -252,7 +252,7 @@ export const persons: Person[] = [
     "id": 7,
     "name": "白方礼",
     "title": "蹬车助学的平民慈善家 中国民间公益助学标杆",
-    "avatar": "/public/images/baifangli/avatar/白方礼头像.png",
+    "avatar": "/sage-list/images/baifangli/avatar/白方礼头像.png",
     "rank": 7,
     "category": "舜",
     "shortDescription": "蹬三轮助学的平民英雄，以耄耋之躯躬身奔波二十载，捐出毕生血汗所得，点亮三百余名贫困学子的求学之路，铸就了中国民间慈善的不朽精神丰碑",
@@ -265,8 +265,8 @@ export const persons: Person[] = [
       "**精神永续，铸就民间慈善丰碑**：白方礼的事迹感动了全中国，2015年他荣登“中国好人榜”，其“无私奉献、坚守初心、大爱无疆”的精神，成为中国民间慈善的精神标杆。他捐建的白方礼小学，至今仍在为乡村孩子提供教育资源；受他资助的学子们纷纷传承其精神，投身公益事业回报社会；他的故事至今仍激励着无数普通人投身教育公益，传递善意与温暖，成为跨越时代的平民英雄典范。",
     ],
     "photos": [
-      "/public/images/baifangli/photos/白方礼1.png",
-      "/public/images/baifangli/photos/白方礼2.png",
+      "/sage-list/images/baifangli/photos/白方礼1.png",
+      "/sage-list/images/baifangli/photos/白方礼2.png",
     ],
     "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
     "socialLinks": {},

@@ -4,7 +4,7 @@ import { PersonDetailPage } from "./pages/PersonDetailPage";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/sage-list">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/person/:id" element={<PersonDetailPage />} />
