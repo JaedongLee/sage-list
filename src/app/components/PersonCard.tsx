@@ -51,7 +51,6 @@ export function PersonCard({ person }: PersonCardProps) {
           style={{ fontFamily: "'Ma Shan Zheng', cursive", letterSpacing: '0.1em' }}>
           {person.name}
         </h3>
-        <p className="text-sm text-red-800 mb-3 text-center" style={{ fontFamily: "'ZCOOL XiaoWei', serif" }}>{person.title}</p>
         
         {/* 装饰线 */}
         <div className="flex items-center justify-center my-3">

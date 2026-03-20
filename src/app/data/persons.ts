@@ -1,7 +1,6 @@
 export interface Person {
   id: number;
   name: string;
-  title: string;
   avatar: string;
   rank: number;
   category: string;
@@ -26,7 +25,6 @@ export const persons: Person[] = [
   {
     id: 1,
     name: "海瑞",
-    title: "大明三大定律掌握者",
     avatar: "/sage-list/images/hairui/avatar/海瑞头像.png",
     rank: 1,
     category: "尧",
@@ -63,12 +61,11 @@ export const persons: Person[] = [
   {
     id: 2,
     name: "包拯",
-    title: "大宋铁面阎罗 千古包青天",
     avatar: "/sage-list/images/baozheng/avatar/包拯头像.jpeg",
     rank: 2,
     category: "尧",
     shortDescription:
-      "大宋阎罗包老，不欺百姓之臣，北宋朝堂持剑人，千古公平正义标杆",
+      "青天本尊，断头台研究者，铁面（物理）无私之人，权贵克星",
     detailedBio:
       "包拯（999年5月28日－1062年7月3日），字希仁，庐州合肥（今安徽合肥肥东）人，北宋著名政治家、清官典范。天圣五年登进士第，因奉养双亲辞官十年方入仕，历任天长知县、端州知州、监察御史、知谏院、权知开封府、三司使等职，官至枢密副使，谥号“孝肃”。其为人刚正不阿、清廉自守，断案明察秋毫，弹劾权贵不避亲疏，被百姓尊为“包公”“包青天”，京师流传“关节不到，有阎罗包老”之语。",
     achievements: [
@@ -101,12 +98,11 @@ export const persons: Person[] = [
   {
     id: 3,
     name: "焦裕禄",
-    title: "县委书记的榜样 人民公仆标杆",
     avatar: "/sage-list/images/jiaoyulu/avatar/焦裕禄头像.jpeg",
     rank: 3,
     category: "尧",
     shortDescription:
-      "县委书记的榜样，兰考三害根治者，人民的好公仆，新中国党员干部为民实干的标杆",
+      "兰考副本通关玩家，三害治理地狱难度速刷者，人民的好周处",
     detailedBio:  
       "焦裕禄（1922年8月16日—1964年5月14日），山东淄博博山区北崮山村人，中国共产党优秀党员，原河南省兰考县县委书记。早年投身革命，历经解放战争洗礼，建国后历任多个基层岗位，1962年临危受命调任兰考县委书记，面对当地风沙、内涝、盐碱三大自然灾害，带领全县群众艰苦奋斗、科学治灾，全力改善民生。1964年因肝癌不幸病逝，年仅42岁，被誉为“县委书记的榜样”，其铸就的焦裕禄精神，被纳入中国共产党人精神谱系。",
     achievements: [
@@ -122,7 +118,7 @@ export const persons: Person[] = [
       "/sage-list/images/jiaoyulu/photos/焦裕禄3.jpeg",
     ],
     videoUrl:
-      "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
+      "https://www.bilibili.com/video/BV1YH4y177yN/?spm_id_from=333.337.search-card.all.click&vd_source=0acc51ebcb79ae161c212c814261f45d",
     socialLinks: {},
     stats: [
       { label: "直接影响人数", value: "50万+" },
@@ -142,11 +138,10 @@ export const persons: Person[] = [
   {
     "id": 4,
     "name": "张钦礼",
-    "title": "兰考除三害奠基者，焦裕禄的亲密战友",
     "avatar": "/sage-list/images/zhangqinli/avatar/张钦礼头像.jpeg",
     "rank": 4,
     "category": "尧",
-    "shortDescription": "兰考除三害奠基者，焦裕禄的亲密战友，一生扎根兰考的赤子，百姓心中的张青天，以毕生实干践行了为人民服务的初心",
+    "shortDescription": "碑林含金量的注释人，口碑一词的诠释者，真正的黑暗骑士，至今未被平反者",
     "detailedBio": "张钦礼（1927年4月8日—2004年5月7日），山东省曹县三区张庄村（今河南省开封市兰考县南彰镇张庄村）人，中国共产党党员，兰考县首任县长，焦裕禄同志的亲密战友。1942年参加抗日活动，1945年加入中国共产党，1949年任考城县县长，1954年考城与兰封合并为兰考县后，出任兰考县第一任县长，历任兰考县委副书记、开封地委书记兼兰考县委第一书记等职。他一生扎根兰考，与风沙、盐碱、内涝“三害”抗争数十载，始终把百姓疾苦放在首位，刚正不阿、清廉奉公，以一生实干践行了为人民服务的誓言，被兰考百姓世代铭记。",
     "achievements": [
       "**少年从戎，初心为民赴家国**：1942年，年仅15岁的张钦礼投身抗日活动，在敌后开展地下工作、传递情报，1945年正式加入中国共产党，在枪林弹雨中三次负伤，弹片留存肩胛骨至死未取出。1949年新中国成立之初，22岁的他主动申请回乡任职，出任考城县县长，成为当时河南最年轻的县长之一，带领群众完成土地改革、恢复农业生产，在战火余烬中为家乡重建筑牢根基。",
@@ -160,7 +155,7 @@ export const persons: Person[] = [
       "/sage-list/images/zhangqinli/photos/张钦礼2.jpeg",
       "/sage-list/images/zhangqinli/photos/张钦礼3.jpeg",
     ],
-    "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
+    "videoUrl": "https://www.bilibili.com/video/BV1NY2iB8ExU?spm_id_from=333.788.recommend_more_video.0&trackid=web_related_0.router-related-2479604-kztxn.1773994978579.448&vd_source=0acc51ebcb79ae161c212c814261f45d",
     "socialLinks": {
     },
     "stats": [
@@ -178,11 +173,10 @@ export const persons: Person[] = [
   {
     "id": 5,
     "name": "张桂梅",
-    "title": "大山女孩的燃灯校长，华坪女高创始人",
     "avatar": "/sage-list/images/zhangguimei/avatar/张桂梅头像.png",
     "rank": 5,
     "category": "舜",
-    "shortDescription": "大山女孩的燃灯校长，全国首所全免费女子高中创始人，七一勋章获得者，以毕生心血托举两千余名山区女孩走出大山，用教育阻断贫困代际传递的时代楷模",
+    "shortDescription": "执着的教育者，现在充满争议的女校校长",
     "detailedBio": "张桂梅（1957年6月— ），原名张玫瑰，满族，黑龙江省牡丹江市人，原籍辽宁省岫岩县，1974年赴云南支援边疆建设，1998年4月加入中国共产党，党的十七大、二十大代表。现任中华全国妇女联合会副主席（兼），云南省丽江华坪女子高级中学党支部书记、校长，华坪县儿童福利院院长。她坚守贫困地区教育一线40余年，2001年起兼任华坪县儿童福利院院长，2008年创办全国第一所全免费公办女子高中，身患20余种疾病仍忘我工作，一生清廉奉公，将所有收入与奖金全部投入教育和福利事业，先后荣获“七一勋章”“时代楷模”“全国脱贫攻坚楷模”“感动中国年度人物”等荣誉，被万千群众尊称为“燃灯校长”“大山妈妈”。",
     "achievements": [
       "**少年支边，扎根滇西守教育**：1974年，17岁的张桂梅响应国家号召，从黑龙江远赴云南支援边疆建设，从此扎根云岭大地。1996年，在丈夫病逝后，她主动放弃大理的优渥条件，申请调到贫困偏远的丽江市华坪县，在师资最弱、条件最差的民族中学任教。即便查出患有子宫肌瘤等多种疾病，她仍强忍病痛坚守讲台，圆满完成4个毕业班的教学任务，用行动践行了扎根基层的教育初心。",
@@ -196,7 +190,7 @@ export const persons: Person[] = [
       "/sage-list/images/zhangguimei/photos/张桂梅2.png",
       "/sage-list/images/zhangguimei/photos/张桂梅3.png",
     ],
-    "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
+    "videoUrl": "https://www.bilibili.com/video/BV1Ng4y1v7gt/?spm_id_from=333.337.search-card.all.click",
     "socialLinks": {
     },
     "stats": [
@@ -214,12 +208,11 @@ export const persons: Person[] = [
   {
     id: 6,
     name: "诺尔曼·白求恩",
-    title: "国际共产主义战士 中国人民的伟大朋友",
     avatar: "/sage-list/images/baiqiuen/avatar/白求恩头像.png",
     rank: 6,
     category: "舜",
     shortDescription:
-      "国际共产主义战士，抗日战地医疗体系奠基人，毫不利己专门利人的精神标杆，中国人民永远的伟大朋友",
+      "远古的国际主义战士，固执的天才医生，四海追寻超我价值的信仰之人",
     detailedBio:
       "诺尔曼·白求恩（Henry Norman Bethune，1890年3月3日—1939年11月12日），加拿大安大略省格雷文赫斯特镇人，加拿大共产党员，国际共产主义战士，著名胸外科医师。1916年毕业于多伦多大学医学院，1935年加入加拿大共产党，1936年投身西班牙反法西斯战场，1938年受加拿大共产党和美国共产党派遣，率领医疗队不远万里来到中国，参与中国人民的抗日战争，任八路军晋察冀军区卫生顾问，在敌后战场主持战地医疗工作。1939年因手术中手指被割破感染，转为败血症，在河北省唐县黄石口村逝世，年仅49岁。毛泽东同志为其写下《纪念白求恩》一文，高度赞扬其共产主义与国际主义精神。",
     achievements: [
@@ -235,7 +228,7 @@ export const persons: Person[] = [
       "/sage-list/images/baiqiuen/photos/白求恩3.png",
     ],
     videoUrl:
-      "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
+      "https://www.bilibili.com/video/BV1vG411i7si/?spm_id_from=333.337.search-card.all.click&vd_source=0acc51ebcb79ae161c212c814261f45d",
     socialLinks: {},
     stats: [
       { label: "直接影响人数", value: "数十万抗日军民" },
@@ -251,11 +244,10 @@ export const persons: Person[] = [
   {
     "id": 7,
     "name": "白方礼",
-    "title": "蹬车助学的平民慈善家 中国民间公益助学标杆",
     "avatar": "/sage-list/images/baifangli/avatar/白方礼头像.png",
     "rank": 7,
     "category": "舜",
-    "shortDescription": "蹬三轮助学的平民英雄，以耄耋之躯躬身奔波二十载，捐出毕生血汗所得，点亮三百余名贫困学子的求学之路，铸就了中国民间慈善的不朽精神丰碑",
+    "shortDescription": "平凡的好人，助学三十载的执着者，",
     "detailedBio": "白方礼（1913年6月17日—2005年9月23日），男，汉族，河北省沧州市沧县白贾村人，生前是天津市河北运输场退休职工。他自幼家境贫寒，13岁起便给人打短工谋生，1944年逃难到天津，靠蹬三轮车养家糊口，后进入天津市河北运输场工作。1987年，74岁的白方礼目睹家乡贫困孩子因贫辍学的困境，毅然捐出毕生积攒的5000元养老钱用于办学，并重蹬三轮车开启助学之路。此后十余年间，他靠着一脚一脚蹬三轮车挣得的收入，累计捐出35万元助学款，资助了300多名贫困学生，还创办“白方礼支教公司”保障助学持续落地。他一生清贫自守，个人生活几近赤贫，病逝后个人存款为零，2015年荣登“中国好人榜”，其无私奉献的精神成为中国共产党人精神谱系之外，民间公益慈善领域最具代表性的精神符号之一。",
     "achievements": [
       "**耄耋启程，倾囊捐资助学开先河**：1987年，74岁的白方礼返乡时看到贫困孩子辍学的现状，当晚便下定决心投身助学，毅然将自己攒了一辈子的5000元养老钱全部捐给家乡学校，成为当地民间个人捐资助学的先行者。他秉持“中国要强大，就要重视教育”的朴素信念，把此后人生的全部精力与收入，都投入到帮助贫困孩子上学的事业中，开启了十余年的蹬车助学之路。",
@@ -268,7 +260,7 @@ export const persons: Person[] = [
       "/sage-list/images/baifangli/photos/白方礼1.png",
       "/sage-list/images/baifangli/photos/白方礼2.png",
     ],
-    "videoUrl": "https://www.bilibili.com/video/BV1cu4y1c7zg/?share_source=copy_web&vd_source=999f50f527e292eeffd4389bdafdbe4a",
+    "videoUrl": "https://www.bilibili.com/video/BV1UU4y1E7ix/?spm_id_from=333.337.search-card.all.click&vd_source=0acc51ebcb79ae161c212c814261f45d",
     "socialLinks": {},
     "stats": [
       { "label": "直接资助学生", "value": "300+" },

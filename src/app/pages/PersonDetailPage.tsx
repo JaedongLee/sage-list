@@ -121,10 +121,6 @@ export function PersonDetailPage() {
                 {person.name}
               </h1>
               
-              <p className="text-2xl text-yellow-200 mb-6 tracking-wider" style={{ fontFamily: "'ZCOOL XiaoWei', serif" }}>
-                {person.title}
-              </p>
-              
               {/* 装饰线 */}
               <div className="flex items-center justify-center lg:justify-start my-6">
                 <div className="w-20 h-1 bg-yellow-600"></div>

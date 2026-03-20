@@ -52,7 +52,10 @@ export function HomePage() {
                   尧舜榜
                 </h1>
                 <p className="text-base text-yellow-200 tracking-widest" style={{ fontFamily: "'ZCOOL XiaoWei', serif" }}>
-                  春风杨柳万千条，六亿神州尽舜尧
+                  春风杨柳万千条，六亿神州尽舜尧。
+                </p>
+                <p className="text-base text-yellow-200 tracking-widest" style={{ fontFamily: "'ZCOOL XiaoWei', serif" }}>
+                  古今帝王皆粪土，唯有圣人俏枝头。
                 </p>
               </div>
             </div>
